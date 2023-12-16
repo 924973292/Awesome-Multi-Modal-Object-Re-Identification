@@ -3,7 +3,7 @@
 Welcome to the Multi-Modal Object Re-Identification Repository! This repository is dedicated to curating and sharing cutting-edge methods and resources specifically focused on multi-modal object re-identification.
 
 ## My Papers
-- [TOP-ReID](<https://github.com/924973292/TOP-ReID>)
+- [AAAI24-TOP-ReID]<br>*TOP-ReID: Multi-spectral Object Re-Identification with Token Permutation*<br>[Paper](<>) [Code](<https://github.com/924973292/TOP-ReID>)
 - ...
 
 ## Multi-Modal ReID
