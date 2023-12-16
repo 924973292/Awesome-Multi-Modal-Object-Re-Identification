@@ -13,7 +13,7 @@ Welcome to the Multi-Modal Object Re-Identification Repository! This repository 
 #### Multi-Modal Person ReID
 - [TNNLS23-DENet] [Dynamic Enhancement Network for Partial Multi-modality Person Re-identification](https://arxiv.org/abs/2305.15762)
 
-- [AAAI22-IEEE] [Interact, Embed, and EnlargE: Boosting Modality-Specific Representations for Multi-Modal Person Re-identification](<https://ojs.aaai.org/index.php/AAAI/article/view/20165>) [Code](<https://github.com/littleprince1121/IEEE_Boosting_Modality-specific_Representations_for_Multi-Modal_Person_ReID>)
+- [AAAI22-IEEE] 《Interact, Embed, and EnlargE: Boosting Modality-Specific Representations for Multi-Modal Person Re-identification》 [paper](<https://ojs.aaai.org/index.php/AAAI/article/view/20165>) [Code](<https://github.com/littleprince1121/IEEE_Boosting_Modality-specific_Representations_for_Multi-Modal_Person_ReID>)
 
 - [AAAI21-PFNet] [Robust Multi-Modality Person Re-identification](<https://ojs.aaai.org/index.php/AAAI/article/view/16467>)
 - ...
