@@ -17,8 +17,11 @@ Welcome to the Multi-Modal Object Re-Identification Repository! This repository 
 - ...
 #### Multi-Modal Vehicle ReID
 - [AAAI20-HAMNet]<br>*Multi-Spectral Vehicle Re-Identification: A Challenge*<br>[Paper](<https://ojs.aaai.org/index.php/AAAI/article/view/6796>) [Code](<https://github.com/ttaalle/multi-modal-vehicle-Re-ID>)
-- [Inform Fusion22-CCNet]<br>*Multi-spectral Vehicle Re-identification with Cross-directional Consistency Network and A High-quality Benchmark*<br>[Paper](<https://arxiv.org/abs/2208.00632>) [Code](<https://github.com/superlollipop123/Cross-directional-Center-Network-and-MSVR310>)
 - [Sensors23-PHT]<br>*Progressively Hybrid Transformer for Multi-Modal Vehicle Re-Identification*<br>[Paper](<https://www.mdpi.com/1424-8220/23/9/4206>)
+- [Inform Fusion22-CCNet]<br>*Multi-spectral Vehicle Re-identification with Cross-directional Consistency Network and A High-quality Benchmark*<br>[Paper](<https://arxiv.org/abs/2208.00632>) [Code](<https://github.com/superlollipop123/Cross-directional-Center-Network-and-MSVR310>)
+- [ICSP22-GAFNet]<br>*Generative and attentive fusion for multi-spectral vehicle re580 identification*<br>[Paper](<https://ieeexplore.ieee.org/document/9778769?denied=>)
+- [TITS23-GPFNet]<br>*Graph-based progressive fusion network for multi-modality 591 vehicle re-identification*<br>[Paper](<https://ieeexplore.ieee.org/document/10159551>)
+
 #### Multi-Modal Object ReID
 - [AAAI24-TOP-ReID]<br>*TOP-ReID: Multi-spectral Object Re-Identification with Token Permutation*<br>[Paper](<>) [Code](<https://github.com/924973292/TOP-ReID>)
 - [NeurIPS23-UniCat]<br>*UniCat: Crafting a Stronger Fusion Baseline for Multimodal Re-Identification*<br>[Paper](<https://arxiv.org/pdf/2310.18812.pdf>) [Code](<https://github.com/Nano1337/UniCat>)
