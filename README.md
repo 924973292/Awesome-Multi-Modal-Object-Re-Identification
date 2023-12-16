@@ -14,7 +14,7 @@ Welcome to the Multi-Modal Object Re-Identification Repository! This repository 
 - [TNNLS23-DENet]<br>*Dynamic Enhancement Network for Partial Multi-modality Person Re-identification*<br>[Paper](https://arxiv.org/abs/2305.15762)
 - [AAAI22-IEEE]<br>*Interact, Embed, and EnlargE: Boosting Modality-Specific Representations for Multi-Modal Person Re-identification*<br>[Paper](<https://ojs.aaai.org/index.php/AAAI/article/view/20165>) [Code](<https://github.com/littleprince1121/IEEE_Boosting_Modality-specific_Representations_for_Multi-Modal_Person_ReID>)
 - [AAAI21-PFNet]<br>*Robust Multi-Modality Person Re-identification*<br>[Paper](<https://ojs.aaai.org/index.php/AAAI/article/view/16467>)
-- ...
+- [MLCCIM23-MMCF]<br>*Multimodal Consistency Co-Assisted Training for Person Re-Identification*<br>[Paper](<https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10339497>)
 #### Multi-Modal Vehicle ReID
 - [AAAI20-HAMNet]<br>*Multi-Spectral Vehicle Re-Identification: A Challenge*<br>[Paper](<https://ojs.aaai.org/index.php/AAAI/article/view/6796>) [Code](<https://github.com/ttaalle/multi-modal-vehicle-Re-ID>)
 - [Sensors23-PHT]<br>*Progressively Hybrid Transformer for Multi-Modal Vehicle Re-Identification*<br>[Paper](<https://www.mdpi.com/1424-8220/23/9/4206>)
