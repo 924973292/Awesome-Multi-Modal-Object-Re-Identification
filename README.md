@@ -11,8 +11,8 @@ Welcome to the Multi-Modal Object Re-Identification Repository! This repository 
 ### Methods
 
 #### Multi-Modal Person ReID
-- [DENet-TNNLS23](-)
-- [IEEE-AAAI22](<https://github.com/littleprince1121/IEEE_Boosting_Modality-specific_Representations_for_Multi-Modal_Person_ReID>)
+- DENet-TNNLS23 [code] [paper](https://arxiv.org/abs/2305.15762)
+- IEEE-AAAI22 [code](<https://github.com/littleprince1121/IEEE_Boosting_Modality-specific_Representations_for_Multi-Modal_Person_ReID>) [paper]()
 - [PFNet-AAAI21](-)
 - ...
 #### Multi-Modal Vehicle ReID
@@ -20,8 +20,9 @@ Welcome to the Multi-Modal Object Re-Identification Repository! This repository 
 - [CCNet-Inform Fusion22](<https://github.com/superlollipop123/Cross-directional-Center-Network-and-MSVR310>)
 - [PHT-Sensors23][paper][<->]
 #### Multi-Modal Object ReID
-- [TOP-ReID](<https://github.com/924973292/TOP-ReID>)
-- ...
+- TOP-ReID: Multi-spectral Object Re-Identification with Token Permutation [code](<https://github.com/924973292/TOP-ReID>)
+- UniCat: Crafting a Stronger Fusion Baseline for Multimodal Re-Identification [paper](<https://arxiv.org/pdf/2310.18812.pdf>) [code](<https://github.com/Nano1337/UniCat>)
+
 ### Datasets
 #### Multi-Modal Person ReID
 - [Link to Dataset 1](<Link to Dataset 1>)
