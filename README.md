@@ -2,23 +2,26 @@
 
 Welcome to the Multi-Modal Object Re-Identification Repository! This repository is dedicated to curating and sharing cutting-edge methods and resources specifically focused on multi-modal object re-identification.
 
-## Repository Content
-### My Papers
+## My Papers
 - [TOP-ReID](<https://github.com/924973292/TOP-ReID>)
-- [Title of Your First Paper](<Link to Paper 1>)
+- ...
 
-## Repository Content
+## Multi-Modal ReID
 
-### Multi-Modal Re-Identification Models
+### Methods
+
 #### Multi-Modal Person ReID
-- [Link to Model 1](<Link to Model 1>)
-- [Link to Model 2](<Link to Model 2>)
+- [DENet-TNNLS23](-)
+- [IEEE-AAAI22](<https://github.com/littleprince1121/IEEE_Boosting_Modality-specific_Representations_for_Multi-Modal_Person_ReID>)
+- [PFNet-AAAI21](-)
 - ...
 #### Multi-Modal Vehicle ReID
-- [Link to Model 1](<Link to Model 1>)
-- [Link to Model 2](<Link to Model 2>)
+- [HAMNet-AAAI20](<https://github.com/ttaalle/multi-modal-vehicle-Re-ID>)
+- [CCNet-Inform Fusion22](<https://github.com/superlollipop123/Cross-directional-Center-Network-and-MSVR310>)
+- [PHT-Sensors23][paper][<->]
+#### Multi-Modal Object ReID
+- [TOP-ReID](<https://github.com/924973292/TOP-ReID>)
 - ...
-
 ### Datasets
 #### Multi-Modal Person ReID
 - [Link to Dataset 1](<Link to Dataset 1>)
