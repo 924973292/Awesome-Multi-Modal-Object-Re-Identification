@@ -34,15 +34,6 @@ Welcome to the Awesome-Multi-Modal Object Re-Identification Repository! This rep
 - [RGBNT100(RGB+NIR+TIR)](<https://drive.google.com/drive/folders/1EscBadX-wMAT56_It5lXY-S3-b5nK1wH>)
 - [RGBNT300(RGB+NIR)](https://pan.baidu.com/s/1xqqh7N4Lctm3RcUdskG0Ug) (rjin)
 - [MSVR310(RGB+NIR+TIR)](https://pan.baidu.com/s/1QyZUkbvpZ3U4d0iPt4IfVA) (msvr)
-## How to Contribute
-
-If you have relevant multi-modal object re-identification methods, models, or datasets, your contributions to this repository are highly welcomed. Follow these steps:
-
-1. Fork the repository.
-2. Create a new branch: `git checkout -b feature/new-method`.
-3. Commit your changes: `git commit -m 'Add a new multi-modal object re-identification method'`.
-4. Push to the branch: `git push origin feature/new-method`.
-5. Submit a pull request.
 
 ## Acknowledgments
 
