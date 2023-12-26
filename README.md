@@ -1,4 +1,4 @@
-# Multi-Modal Object Re-Identification Repository
+# Awesome-Multi-Modal Object Re-Identification Repository
 
 Welcome to the Multi-Modal Object Re-Identification Repository! This repository is dedicated to curating and sharing cutting-edge methods and resources specifically focused on multi-modal object re-identification.
 
