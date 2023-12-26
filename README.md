@@ -3,7 +3,7 @@
 Welcome to the Awesome-Multi-Modal Object Re-Identification Repository! This repository is dedicated to curating and sharing cutting-edge methods and resources specifically focused on multi-modal object re-identification.
 
 ## My Papers
-- [AAAI24-TOP-ReID]<br>*TOP-ReID: Multi-spectral Object Re-Identification with Token Permutation*<br>[Paper](<>) [Code](<https://github.com/924973292/TOP-ReID>)
+- [AAAI24-TOP-ReID]<br>*TOP-ReID: Multi-spectral Object Re-Identification with Token Permutation*<br>[Paper](<https://arxiv.org/abs/2312.09612>) [Code](<https://github.com/924973292/TOP-ReID>)
 - ...
 
 ## Multi-Modal ReID
@@ -23,7 +23,7 @@ Welcome to the Awesome-Multi-Modal Object Re-Identification Repository! This rep
 - [TITS23-GPFNet]<br>*Graph-based progressive fusion network for multi-modality vehicle re-identification*<br>[Paper](<https://ieeexplore.ieee.org/document/10159551>)
 
 #### Multi-Modal Object ReID
-- [AAAI24-TOP-ReID]<br>*TOP-ReID: Multi-spectral Object Re-Identification with Token Permutation*<br>[Paper](<>) [Code](<https://github.com/924973292/TOP-ReID>)
+- [AAAI24-TOP-ReID]<br>*TOP-ReID: Multi-spectral Object Re-Identification with Token Permutation*<br>[Paper](<https://arxiv.org/abs/2312.09612>) [Code](<https://github.com/924973292/TOP-ReID>)
 - [NeurIPS23-UniCat]<br>*UniCat: Crafting a Stronger Fusion Baseline for Multimodal Re-Identification*<br>[Paper](<https://arxiv.org/pdf/2310.18812.pdf>) [Code](<https://github.com/Nano1337/UniCat>)
 - [arXiv23-GraFT]<br>*GraFT: Gradual Fusion Transformer for Multimodal Re-Identification*<br>[Paper](<https://arxiv.org/pdf/2310.16856v1.pdf>) [Code](<https://github.com/Nano1337/GraFT>)
 ### Datasets
