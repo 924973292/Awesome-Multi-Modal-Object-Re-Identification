@@ -36,6 +36,11 @@ Welcome to the Awesome-Multi-Modal Object Re-Identification Repository! This rep
 - [RGBNT300(RGB+NIR)](https://pan.baidu.com/s/1xqqh7N4Lctm3RcUdskG0Ug) (rjin)
 - [MSVR310(RGB+NIR+TIR)](https://pan.baidu.com/s/1QyZUkbvpZ3U4d0iPt4IfVA) (msvr)
 
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=924973292/Awesome-Multi-Modal-Object-Re-Identification&type=Date)](https://star-history.com/#924973292/Awesome-Multi-Modal-Object-Re-Identification&Date)
+
 ## Acknowledgments
 
 I want to express my gratitude to the academic community and everyone contributing to the advancement of multi-modal object re-identification research.
