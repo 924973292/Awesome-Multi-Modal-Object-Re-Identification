@@ -34,7 +34,7 @@ Welcome to the Awesome-Multi-Modal Object Re-Identification Repository! This rep
 #### Multi-Modal Vehicle ReID
 - [RGBNT100(RGB+NIR+TIR)](<https://drive.google.com/drive/folders/1EscBadX-wMAT56_It5lXY-S3-b5nK1wH>)
 - [RGBNT300(RGB+NIR)](https://pan.baidu.com/s/1xqqh7N4Lctm3RcUdskG0Ug) (rjin)
-- [MSVR310(RGB+NIR+TIR)](https://pan.baidu.com/s/1QyZUkbvpZ3U4d0iPt4IfVA) (msvr)
+- [MSVR310(RGB+NIR+TIR)](https://pan.baidu.com/s/1soWMH10DyGG0krTKL7fsYg) (p6ch)
 
 
 ## Star History
