@@ -24,7 +24,7 @@ Welcome to the Awesome-Multi-Modal Object Re-Identification Repository! This rep
 
 #### Multi-Modal Object ReID
 - [AAAI24-TOP-ReID]<br>*TOP-ReID: Multi-spectral Object Re-Identification with Token Permutation*<br>[Paper](<https://arxiv.org/abs/2312.09612>) [Code](<https://github.com/924973292/TOP-ReID>)
-- [AAAI24-HTT]<br>*Heterogeneous Test-Time Training for Multi-Modal Person Re-identifcation*<br>[Paper](<file:///Users/mac/Downloads/28398-Article%20Text-32452-1-2-20240324.pdf>) [Code](<https://github.com/ziwang1121/HTT>)
+- [AAAI24-HTT]<br>*Heterogeneous Test-Time Training for Multi-Modal Person Re-identifcation*<br>[Paper](<https://ojs.aaai.org/index.php/AAAI/article/view/28398>) [Code](<https://github.com/ziwang1121/HTT>)
 - [NeurIPS23-UniCat]<br>*UniCat: Crafting a Stronger Fusion Baseline for Multimodal Re-Identification*<br>[Paper](<https://arxiv.org/pdf/2310.18812.pdf>) [Code](<https://github.com/Nano1337/UniCat>)
 - [arXiv23-GraFT]<br>*GraFT: Gradual Fusion Transformer for Multimodal Re-Identification*<br>[Paper](<https://arxiv.org/pdf/2310.16856v1.pdf>) [Code](<https://github.com/Nano1337/GraFT>)
 - [CVPR24-EDITOR]<br>*Magic Tokens: Select Diverse Tokens for Multi-modal Object Re-Identification*<br>[Paper](<https://arxiv.org/abs/2403.10254>) [Code](<https://github.com/924973292/EDITOR>)
