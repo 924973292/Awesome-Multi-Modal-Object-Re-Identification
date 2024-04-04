@@ -55,7 +55,7 @@ Feel free to reach out if you have any questions, suggestions, or collaboration 
 - Web: [924973292.github.io](https://924973292.github.io//)
 
 ## Citation
-If you find EDITOR useful in your research, please consider citing:
+If you find our work useful in your research, please consider citing our papers:
 ```bibtex
 @inproceedings{wang2024top,
   title={TOP-ReID: Multi-spectral Object Re-Identification with Token Permutation},
