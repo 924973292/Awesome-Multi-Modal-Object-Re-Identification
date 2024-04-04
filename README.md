@@ -53,3 +53,24 @@ Feel free to reach out if you have any questions, suggestions, or collaboration 
 
 - Email: [924973292@mail.dlut.edu.cn](mailto:924973292@mail.dlut.edu.cn)
 - Web: [924973292.github.io](https://924973292.github.io//)
+
+## Citation
+If you find EDITOR useful in your research, please consider citing:
+```bibtex
+@inproceedings{wang2024top,
+  title={TOP-ReID: Multi-spectral Object Re-Identification with Token Permutation},
+  author={Wang, Yuhao and Liu, Xuehu and Zhang, Pingping and Lu, Hu and Tu, Zhengzheng and Lu, Huchuan},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={38},
+  number={6},
+  pages={5758--5766},
+  year={2024}
+}
+
+@article{zhang2024magic,
+  title={Magic Tokens: Select Diverse Tokens for Multi-modal Object Re-Identification},
+  author={Zhang, Pingping and Wang, Yuhao and Liu, Yang and Tu, Zhengzheng and Lu, Huchuan},
+  journal={arXiv preprint arXiv:2403.10254},
+  year={2024}
+}
+```
