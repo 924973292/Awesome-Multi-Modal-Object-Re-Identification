@@ -16,6 +16,7 @@ Welcome to the Awesome-Multi-Modal Object Re-Identification Repository! This rep
 - [AAAI21-PFNet]<br>*Robust Multi-Modality Person Re-identification*<br>[Paper](<https://ojs.aaai.org/index.php/AAAI/article/view/16467>)
 - [MLCCIM23-MMCF]<br>*Multimodal Consistency Co-Assisted Training for Person Re-Identification*<br>[Paper](<https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10339497>)
 - [ICSP23-LRFNet]<br>*Low-rank Fusion Network for Multi-modality Person Re-identification*<br>[Paper](<https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10248672>)
+- [CVPR2024-AIO]<br>*All in One Framework for Multimodal Re-identification in the Wild*<br>[Paper](<https://arxiv.org/pdf/2405.04741>) [Code](<https://github.com/lihe404/AIO>)
 #### Multi-Modal Vehicle ReID
 - [AAAI20-HAMNet]<br>*Multi-Spectral Vehicle Re-Identification: A Challenge*<br>[Paper](<https://ojs.aaai.org/index.php/AAAI/article/view/6796>) [Code](<https://github.com/ttaalle/multi-modal-vehicle-Re-ID>)
 - [Sensors23-PHT]<br>*Progressively Hybrid Transformer for Multi-Modal Vehicle Re-Identification*<br>[Paper](<https://www.mdpi.com/1424-8220/23/9/4206>)
