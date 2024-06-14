@@ -68,10 +68,12 @@ If you find our work useful in your research, please consider citing our papers:
   year={2024}
 }
 
-@article{zhang2024magic,
-  title={Magic Tokens: Select Diverse Tokens for Multi-modal Object Re-Identification},
-  author={Zhang, Pingping and Wang, Yuhao and Liu, Yang and Tu, Zhengzheng and Lu, Huchuan},
-  journal={arXiv preprint arXiv:2403.10254},
-  year={2024}
+@InProceedings{Zhang_2024_CVPR,
+    author    = {Zhang, Pingping and Wang, Yuhao and Liu, Yang and Tu, Zhengzheng and Lu, Huchuan},
+    title     = {Magic Tokens: Select Diverse Tokens for Multi-modal Object Re-Identification},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2024},
+    pages     = {17117-17126}
 }
 ```
