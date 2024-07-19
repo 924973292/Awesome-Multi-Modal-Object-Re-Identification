@@ -30,6 +30,7 @@ Welcome to the Awesome-Multi-Modal Object Re-Identification Repository! This rep
 - [NeurIPS23-UniCat]<br>*UniCat: Crafting a Stronger Fusion Baseline for Multimodal Re-Identification*<br>[Paper](<https://arxiv.org/pdf/2310.18812.pdf>) [Code](<https://github.com/Nano1337/UniCat>)
 - [arXiv23-GraFT]<br>*GraFT: Gradual Fusion Transformer for Multimodal Re-Identification*<br>[Paper](<https://arxiv.org/pdf/2310.16856v1.pdf>) [Code](<https://github.com/Nano1337/GraFT>)
 - [CVPR24-EDITOR]<br>*Magic Tokens: Select Diverse Tokens for Multi-modal Object Re-Identification*<br>[Paper](<https://arxiv.org/abs/2403.10254>) [Code](<https://github.com/924973292/EDITOR>)
+- [Sensors24-MambaReID]<br>*MambaReID: Exploiting Vision Mamba for Multi-Modal Object Re-Identification*<br>[Paper](<https://www.mdpi.com/1424-8220/24/14/4639>)
 ### Datasets
 #### Multi-Modal Person ReID
 - [RGBNT201(RGB+NIR+TIR)](<https://drive.google.com/drive/folders/1EscBadX-wMAT56_It5lXY-S3-b5nK1wH>)
