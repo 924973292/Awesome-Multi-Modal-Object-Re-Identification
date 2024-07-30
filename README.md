@@ -32,7 +32,7 @@ Welcome to the Awesome-Multi-Modal Object Re-Identification Repository! This rep
 - [AAAI24-HTT]<br>*Heterogeneous Test-Time Training for Multi-Modal Person Re-identifcation*<br>[Paper](<https://ojs.aaai.org/index.php/AAAI/article/view/28398>) [Code](<https://github.com/ziwang1121/HTT>)
 - [NeurIPS23-UniCat]<br>*UniCat: Crafting a Stronger Fusion Baseline for Multimodal Re-Identification*<br>[Paper](<https://arxiv.org/pdf/2310.18812.pdf>) [Code](<https://github.com/Nano1337/UniCat>)
 - [arXiv23-GraFT]<br>*GraFT: Gradual Fusion Transformer for Multimodal Re-Identification*<br>[Paper](<https://arxiv.org/pdf/2310.16856v1.pdf>) [Code](<https://github.com/Nano1337/GraFT>)
-- 
+
 ### Datasets
 #### Multi-Modal Person ReID
 - [RGBNT201(RGB+NIR+TIR)](<https://drive.google.com/drive/folders/1EscBadX-wMAT56_It5lXY-S3-b5nK1wH>)
