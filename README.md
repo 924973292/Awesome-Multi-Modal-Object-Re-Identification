@@ -43,7 +43,6 @@ Welcome to the Awesome-Multi-Modal Object Re-Identification Repository! This rep
 - [MSVR310(RGB+NIR+TIR)](https://pan.baidu.com/s/1QyZUkbvpZ3U4d0iPt4IfVA) (msvr)
 - [MSVWild863(RGB+NIR+TIR)](https://github.com/Mzq12138/Official-Implementation-for-Flare-Aware-Cross-modal-Enhancement-for-Multi-spectral-Vehicle-ReID?tab=readme-ov-file) (msvw)
 
-
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=924973292/Awesome-Multi-Modal-Object-Re-Identification&type=Date)](https://star-history.com/#924973292/Awesome-Multi-Modal-Object-Re-Identification&Date)
