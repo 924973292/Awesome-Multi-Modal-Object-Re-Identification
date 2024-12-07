@@ -10,6 +10,16 @@ Welcome to the Awesome-Multi-Modal Object Re-Identification Repository! This rep
 
 ### Methods
 
+#### Multi-Modal Object ReID
+- [TCSVT24-RSCNet]<br>*Representation Selective Coupling via Token Sparsification for Multi-Spectral Object Re-Identification*<br>[Paper](<https://ieeexplore.ieee.org/abstract/document/10772090>)
+- [ESWA25-LRMM]<br>*LRMM: Low rank multi-scale multi-modal fusion for person re-identification based on RGB-NI-TI*<br>[Paper](<https://www.sciencedirect.com/science/article/pii/S0957417424025831>)
+- [Sensors24-MambaReID]<br>*MambaReID: Exploiting Vision Mamba for Multi-Modal Object Re-Identification*<br>[Paper](<https://www.mdpi.com/1424-8220/24/14/4639>)
+- [CVPR24-EDITOR]<br>*Magic Tokens: Select Diverse Tokens for Multi-modal Object Re-Identification*<br>[Paper](<https://arxiv.org/abs/2403.10254>) [Code](<https://github.com/924973292/EDITOR>)
+- [AAAI24-TOP-ReID]<br>*TOP-ReID: Multi-spectral Object Re-Identification with Token Permutation*<br>[Paper](<https://arxiv.org/abs/2312.09612>) [Code](<https://github.com/924973292/TOP-ReID>)
+- [AAAI24-HTT]<br>*Heterogeneous Test-Time Training for Multi-Modal Person Re-identifcation*<br>[Paper](<https://ojs.aaai.org/index.php/AAAI/article/view/28398>) [Code](<https://github.com/ziwang1121/HTT>)
+- [NeurIPS23-UniCat]<br>*UniCat: Crafting a Stronger Fusion Baseline for Multimodal Re-Identification*<br>[Paper](<https://arxiv.org/pdf/2310.18812.pdf>) [Code](<https://github.com/Nano1337/UniCat>)
+- [arXiv23-GraFT]<br>*GraFT: Gradual Fusion Transformer for Multimodal Re-Identification*<br>[Paper](<https://arxiv.org/pdf/2310.16856v1.pdf>) [Code](<https://github.com/Nano1337/GraFT>)
+
 #### Multi-Modal Person ReID
 - [MLCCIM23-MMCF]<br>*Multimodal Consistency Co-Assisted Training for Person Re-Identification*<br>[Paper](<https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10339497>)
 - [ICSP23-LRFNet]<br>*Low-rank Fusion Network for Multi-modality Person Re-identification*<br>[Paper](<https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10248672>)
@@ -24,16 +34,6 @@ Welcome to the Awesome-Multi-Modal Object Re-Identification Repository! This rep
 - [Inform Fusion22-CCNet]<br>*Multi-spectral Vehicle Re-identification with Cross-directional Consistency Network and A High-quality Benchmark*<br>[Paper](<https://arxiv.org/abs/2208.00632>) [Code](<https://github.com/superlollipop123/Cross-directional-Center-Network-and-MSVR310>)
 - [ICSP22-GAFNet]<br>*Generative and attentive fusion for multi-spectral vehicle re-identification*<br>[Paper](<https://ieeexplore.ieee.org/document/9778769?denied=>)
 - [AAAI20-HAMNet]<br>*Multi-Spectral Vehicle Re-Identification: A Challenge*<br>[Paper](<https://ojs.aaai.org/index.php/AAAI/article/view/6796>) [Code](<https://github.com/ttaalle/multi-modal-vehicle-Re-ID>)
-
-#### Multi-Modal Object ReID
-- [TCSVT24-RSCNet]<br>*Representation Selective Coupling via Token Sparsification for Multi-Spectral Object Re-Identification*<br>[Paper](<https://ieeexplore.ieee.org/abstract/document/10772090>)
-- [ESWA25-LRMM]<br>*LRMM: Low rank multi-scale multi-modal fusion for person re-identification based on RGB-NI-TI*<br>[Paper](<https://www.sciencedirect.com/science/article/pii/S0957417424025831>)
-- [Sensors24-MambaReID]<br>*MambaReID: Exploiting Vision Mamba for Multi-Modal Object Re-Identification*<br>[Paper](<https://www.mdpi.com/1424-8220/24/14/4639>)
-- [CVPR24-EDITOR]<br>*Magic Tokens: Select Diverse Tokens for Multi-modal Object Re-Identification*<br>[Paper](<https://arxiv.org/abs/2403.10254>) [Code](<https://github.com/924973292/EDITOR>)
-- [AAAI24-TOP-ReID]<br>*TOP-ReID: Multi-spectral Object Re-Identification with Token Permutation*<br>[Paper](<https://arxiv.org/abs/2312.09612>) [Code](<https://github.com/924973292/TOP-ReID>)
-- [AAAI24-HTT]<br>*Heterogeneous Test-Time Training for Multi-Modal Person Re-identifcation*<br>[Paper](<https://ojs.aaai.org/index.php/AAAI/article/view/28398>) [Code](<https://github.com/ziwang1121/HTT>)
-- [NeurIPS23-UniCat]<br>*UniCat: Crafting a Stronger Fusion Baseline for Multimodal Re-Identification*<br>[Paper](<https://arxiv.org/pdf/2310.18812.pdf>) [Code](<https://github.com/Nano1337/UniCat>)
-- [arXiv23-GraFT]<br>*GraFT: Gradual Fusion Transformer for Multimodal Re-Identification*<br>[Paper](<https://arxiv.org/pdf/2310.16856v1.pdf>) [Code](<https://github.com/Nano1337/GraFT>)
 
 ### Datasets
 #### Multi-Modal Person ReID
