@@ -26,6 +26,7 @@ Welcome to the Awesome-Multi-Modal Object Re-Identification Repository! This rep
 - [AAAI20-HAMNet]<br>*Multi-Spectral Vehicle Re-Identification: A Challenge*<br>[Paper](<https://ojs.aaai.org/index.php/AAAI/article/view/6796>) [Code](<https://github.com/ttaalle/multi-modal-vehicle-Re-ID>)
 
 #### Multi-Modal Object ReID
+- [TCSVT24-RSCNet]<br>*Representation Selective Coupling via Token Sparsification for Multi-Spectral Object Re-Identification*<br>[Paper](<https://ieeexplore.ieee.org/abstract/document/10772090>)
 - [ESWA25-LRMM]<br>*LRMM: Low rank multi-scale multi-modal fusion for person re-identification based on RGB-NI-TI*<br>[Paper](<https://www.sciencedirect.com/science/article/pii/S0957417424025831>)
 - [Sensors24-MambaReID]<br>*MambaReID: Exploiting Vision Mamba for Multi-Modal Object Re-Identification*<br>[Paper](<https://www.mdpi.com/1424-8220/24/14/4639>)
 - [CVPR24-EDITOR]<br>*Magic Tokens: Select Diverse Tokens for Multi-modal Object Re-Identification*<br>[Paper](<https://arxiv.org/abs/2403.10254>) [Code](<https://github.com/924973292/EDITOR>)
