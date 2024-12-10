@@ -13,7 +13,7 @@ Welcome to the Awesome-Multi-Modal Object Re-Identification Repository! This rep
 ### Methods
 
 #### Multi-Modal Object ReID
-- [AAAI25-DeMo]<br>*DeMo: Decoupled Feature-Based Mixture of Experts for Multi-Modal Object Re-Identification*
+- [AAAI25-DeMo]<br>*DeMo: Decoupled Feature-Based Mixture of Experts for Multi-Modal Object Re-Identification*[Code](<https://github.com/924973292/DeMo>)
 - [AAAI25-MambaPro]<br>*MambaPro: Multi-Modal Object Re-identification with Mamba Aggregation and Synergistic Prompt*
 - [TCSVT24-RSCNet]<br>*Representation Selective Coupling via Token Sparsification for Multi-Spectral Object Re-Identification*<br>[Paper](<https://ieeexplore.ieee.org/abstract/document/10772090>)
 - [ESWA25-LRMM]<br>*LRMM: Low rank multi-scale multi-modal fusion for person re-identification based on RGB-NI-TI*<br>[Paper](<https://www.sciencedirect.com/science/article/pii/S0957417424025831>)
