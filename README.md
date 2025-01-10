@@ -86,4 +86,18 @@ If you find our work useful in your research, please consider citing our papers:
     year      = {2024},
     pages     = {17117-17126}
 }
+
+@article{wang2024decoupled,
+  title={Decoupled Feature-Based Mixture of Experts for Multi-Modal Object Re-Identification},
+  author={Wang, Yuhao and Liu, Yang and Zheng, Aihua and Zhang, Pingping},
+  journal={arXiv preprint arXiv:2412.10650},
+  year={2024}
+}
+
+@article{wang2024mambapro,
+  title={MambaPro: Multi-Modal Object Re-Identification with Mamba Aggregation and Synergistic Prompt},
+  author={Wang, Yuhao and Liu, Xuehu and Yan, Tianyu and Liu, Yang and Zheng, Aihua and Zhang, Pingping and Lu, Huchuan},
+  journal={arXiv preprint arXiv:2412.10707},
+  year={2024}
+}
 ```
