@@ -13,6 +13,7 @@ Welcome to the Awesome-Multi-Modal Object Re-Identification Repository! This rep
 ### Methods
 
 #### Multi-Modal Object ReID
+- [ArXiv25]<br>*Modality Unified Attack for Omni-Modality Person Re-Identification<br>[Paper](https://arxiv.org/pdf/2501.12761)
 - [AAAI25-DeMo]<br>*DeMo: Decoupled Feature-Based Mixture of Experts for Multi-Modal Object Re-Identification*<br>[Paper](https://arxiv.org/pdf/2412.10650) [Code](<https://github.com/924973292/DeMo>)
 - [AAAI25-MambaPro]<br>*MambaPro: Multi-Modal Object Re-identification with Mamba Aggregation and Synergistic Prompt*<br>[Paper](https://arxiv.org/pdf/2412.10707) [Code](<https://github.com/924973292/MambaPro>)
 - [TCSVT24-RSCNet]<br>*Representation Selective Coupling via Token Sparsification for Multi-Spectral Object Re-Identification*<br>[Paper](<https://ieeexplore.ieee.org/abstract/document/10772090>)
