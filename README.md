@@ -32,6 +32,7 @@ Welcome to the Awesome-Multi-Modal Object Re-Identification Repository! This rep
 - [AAAI22-IEEE]<br>*Interact, Embed, and EnlargE: Boosting Modality-Specific Representations for Multi-Modal Person Re-identification*<br>[Paper](<https://ojs.aaai.org/index.php/AAAI/article/view/20165>) [Code](<https://github.com/littleprince1121/IEEE_Boosting_Modality-specific_Representations_for_Multi-Modal_Person_ReID>)
 - [AAAI21-PFNet]<br>*Robust Multi-Modality Person Re-identification*<br>[Paper](<https://ojs.aaai.org/index.php/AAAI/article/view/16467>)
 
+
 #### Multi-Modal Vehicle ReID
 - [ESWA25-WTSF-ReID]<br>*Depth-driven Window-oriented Token Selection and Fusion for multi-modality vehicle re-identification with knowledge consistency constraint*<br>[Paper](<https://www.sciencedirect.com/science/article/pii/S0957417425005433?via=ihub>)
 - [Inform Fusion24-FACENet]<br>*Flare-aware cross-modal enhancement network for multi-spectral vehicle Re-identification*<br>[Paper](<https://www.sciencedirect.com/science/article/pii/S1566253524005785>) [Code](<https://github.com/Mzq12138/Official-Implementation-for-Flare-Aware-Cross-modal-Enhancement-for-Multi-spectral-Vehicle-ReID?tab=readme-ov-file>)
