@@ -3,6 +3,7 @@
 Welcome to the Awesome-Multi-Modal Object Re-Identification Repository! This repository is dedicated to curating and sharing cutting-edge methods and resources specifically focused on multi-modal object re-identification.
 
 ## My Papers
+- [CVPR25-IDEA]<br>*IDEA: Inverted Text with Cooperative Deformable Aggregation for Multi-modal Object Re-Identification*<br>[Paper](https://arxiv.org/pdf/2412.10650) [Code](<https://github.com/924973292/IDEA>)
 - [AAAI25-DeMo]<br>*DeMo: Decoupled Feature-Based Mixture of Experts for Multi-Modal Object Re-Identification*<br>[Paper](https://arxiv.org/pdf/2412.10650) [Code](<https://github.com/924973292/DeMo>)
 - [AAAI25-MambaPro]<br>*MambaPro: Multi-Modal Object Re-identification with Mamba Aggregation and Synergistic Prompt*<br>[Paper](https://arxiv.org/pdf/2412.10707) [Code](<https://github.com/924973292/MambaPro>)
 - [CVPR24-EDITOR]<br>*Magic Tokens: Select Diverse Tokens for Multi-modal Object Re-Identification*<br>[Paper](<https://arxiv.org/abs/2403.10254>) [Code](<https://github.com/924973292/EDITOR>)
@@ -13,6 +14,7 @@ Welcome to the Awesome-Multi-Modal Object Re-Identification Repository! This rep
 ### Methods
 
 #### Multi-Modal Object ReID
+- [CVPR25-IDEA]<br>*IDEA: Inverted Text with Cooperative Deformable Aggregation for Multi-modal Object Re-Identification*<br>[Paper](https://arxiv.org/pdf/2412.10650) [Code](<https://github.com/924973292/IDEA>)
 - [ArXiv25]<br>*Modality Unified Attack for Omni-Modality Person Re-Identification*<br>[Paper](https://arxiv.org/pdf/2501.12761)
 - [AAAI25-DeMo]<br>*DeMo: Decoupled Feature-Based Mixture of Experts for Multi-Modal Object Re-Identification*<br>[Paper](https://arxiv.org/pdf/2412.10650) [Code](<https://github.com/924973292/DeMo>)
 - [AAAI25-MambaPro]<br>*MambaPro: Multi-Modal Object Re-identification with Mamba Aggregation and Synergistic Prompt*<br>[Paper](https://arxiv.org/pdf/2412.10707) [Code](<https://github.com/924973292/MambaPro>)
@@ -104,5 +106,12 @@ If you find our work useful in your research, please consider citing our papers:
   author={Wang, Yuhao and Liu, Xuehu and Yan, Tianyu and Liu, Yang and Zheng, Aihua and Zhang, Pingping and Lu, Huchuan},
   journal={arXiv preprint arXiv:2412.10707},
   year={2024}
+}
+
+@inproceedings{wang2025idea,
+  title={IDEA: Inverted Text with Cooperative Deformable Aggregation for Multi-Modal Object Re-Identification},
+  author={Wang, Yuhao and Lv, Yongfeng and Zhang, Pingping and Lu, Huchuan},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year={2025}
 }
 ```
