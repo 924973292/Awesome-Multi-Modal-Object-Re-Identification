@@ -28,6 +28,7 @@ Welcome to the Awesome-Multi-Modal Object Re-Identification Repository! This rep
 - [arXiv23-GraFT]<br>*GraFT: Gradual Fusion Transformer for Multimodal Re-Identification*<br>[Paper](<https://arxiv.org/pdf/2310.16856v1.pdf>) [Code](<https://github.com/Nano1337/GraFT>)
 
 #### Multi-Modal Person ReID
+- [TNNLS25-TIENet]<br>*TIENet: A Tri-Interaction Enhancement Network for Multimodal Person Reidentification*<br>[Paper](<https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10934016>)
 - [MLCCIM23-MMCF]<br>*Multimodal Consistency Co-Assisted Training for Person Re-Identification*<br>[Paper](<https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10339497>)
 - [ICSP23-LRFNet]<br>*Low-rank Fusion Network for Multi-modality Person Re-identification*<br>[Paper](<https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10248672>)
 - [TNNLS23-DENet]<br>*Dynamic Enhancement Network for Partial Multi-modality Person Re-identification*<br>[Paper](https://arxiv.org/abs/2305.15762)
