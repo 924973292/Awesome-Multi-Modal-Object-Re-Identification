@@ -14,6 +14,7 @@ Welcome to the Awesome-Multi-Modal Object Re-Identification Repository! This rep
 ### Methods
 
 #### Multi-Modal Object ReID
+- [TIP25-PromptMA]<br>*Prompt-Based Modality Alignment for Effective Multi-Modal Object Re-Identification*<br>[Paper](https://ieeexplore.ieee.org/abstract/document/10955143) [Code](<https://github.com/FHRL/PromptMA>)
 - [CVPR25-IDEA]<br>*IDEA: Inverted Text with Cooperative Deformable Aggregation for Multi-modal Object Re-Identification*<br>[Paper](https://arxiv.org/pdf/2503.10324) [Code](<https://github.com/924973292/IDEA>)
 - [ArXiv25]<br>*Modality Unified Attack for Omni-Modality Person Re-Identification*<br>[Paper](https://arxiv.org/pdf/2501.12761)
 - [AAAI25-DeMo]<br>*DeMo: Decoupled Feature-Based Mixture of Experts for Multi-Modal Object Re-Identification*<br>[Paper](https://arxiv.org/pdf/2412.10650) [Code](<https://github.com/924973292/DeMo>)
