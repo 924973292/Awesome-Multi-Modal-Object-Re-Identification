@@ -40,7 +40,7 @@ Welcome to the Awesome-Multi-Modal Object Re-Identification Repository! This rep
 
 
 #### Multi-Modal Vehicle ReID
-- [ArXiv25-CoEN]<br>*Collaborative Enhancement Network for Low-quality Multi-spectral Vehicle Re-identification*<br>[Paper](https://arxiv.org/pdf/2504.14877)[Code](https://github.com/yongqisun/CoEN)
+- [ArXiv25-CoEN]<br>*Collaborative Enhancement Network for Low-quality Multi-spectral Vehicle Re-identification*<br>[Paper](https://arxiv.org/pdf/2504.14877) [Code](https://github.com/yongqisun/CoEN)
 - [Applied Intelligence25]<br>*Generalizable Multi-spectral Vehicle Re-identification via Decoupled Subspaces*<br>[Paper](<https://link.springer.com/chapter/10.1007/978-981-96-1904-7_2>)
 - [ESWA25-WTSF-ReID]<br>*Depth-driven Window-oriented Token Selection and Fusion for multi-modality vehicle re-identification with knowledge consistency constraint*<br>[Paper](<https://www.sciencedirect.com/science/article/pii/S0957417425005433?via=ihub>) [Code](<https://github.com/unicofu/WTSF-ReID>)
 - [Inform Fusion24-FACENet]<br>*Flare-aware cross-modal enhancement network for multi-spectral vehicle Re-identification*<br>[Paper](<https://www.sciencedirect.com/science/article/pii/S1566253524005785>) [Code](<https://github.com/Mzq12138/Official-Implementation-for-Flare-Aware-Cross-modal-Enhancement-for-Multi-spectral-Vehicle-ReID?tab=readme-ov-file>)
