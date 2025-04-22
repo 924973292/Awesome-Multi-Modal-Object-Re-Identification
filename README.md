@@ -99,24 +99,30 @@ If you find our work useful in your research, please consider citing our papers:
     pages     = {17117-17126}
 }
 
-@article{wang2024decoupled,
-  title={Decoupled Feature-Based Mixture of Experts for Multi-Modal Object Re-Identification},
+@inproceedings{wang2025decoupled,
+  title={Decoupled feature-based mixture of experts for multi-modal object re-identification},
   author={Wang, Yuhao and Liu, Yang and Zheng, Aihua and Zhang, Pingping},
-  journal={arXiv preprint arXiv:2412.10650},
-  year={2024}
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={39},
+  number={8},
+  pages={8141--8149},
+  year={2025}
 }
 
-@article{wang2024mambapro,
-  title={MambaPro: Multi-Modal Object Re-Identification with Mamba Aggregation and Synergistic Prompt},
+@inproceedings{wang2025mambapro,
+  title={Mambapro: Multi-modal object re-identification with mamba aggregation and synergistic prompt},
   author={Wang, Yuhao and Liu, Xuehu and Yan, Tianyu and Liu, Yang and Zheng, Aihua and Zhang, Pingping and Lu, Huchuan},
-  journal={arXiv preprint arXiv:2412.10707},
-  year={2024}
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={39},
+  number={8},
+  pages={8150--8158},
+  year={2025}
 }
 
-@inproceedings{wang2025idea,
-  title={IDEA: Inverted Text with Cooperative Deformable Aggregation for Multi-Modal Object Re-Identification},
+@article{wang2025idea,
+  title={IDEA: Inverted Text with Cooperative Deformable Aggregation for Multi-modal Object Re-Identification},
   author={Wang, Yuhao and Lv, Yongfeng and Zhang, Pingping and Lu, Huchuan},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  journal={arXiv preprint arXiv:2503.10324},
   year={2025}
 }
 ```
