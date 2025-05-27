@@ -14,7 +14,7 @@ Welcome to the Awesome-Multi-Modal Object Re-Identification Repository! This rep
 ### Methods
 
 #### Multi-Modal Object ReID
-- [TMM25-ICPL]<br>*CPL-ReID: Identity-Conditional Prompt Learning for Multi-Spectral Object Re-Identification*<br>[Paper](https://arxiv.org/pdf/2505.17821) [Code](https://github.com/lsh-ahu/ICPL-ReID)
+- [TMM25-ICPL]<br>*ICPL-ReID: Identity-Conditional Prompt Learning for Multi-Spectral Object Re-Identification*<br>[Paper](https://arxiv.org/pdf/2505.17821) [Code](https://github.com/lsh-ahu/ICPL-ReID)
 - [ArXiv25-MGRNet]<br>*Reliable Multi-Modal Object Re-Identification via Modality-Aware Graph Reasoning*<br>[Paper](https://arxiv.org/pdf/2504.14847)
 - [WACV25-DMPT]<br>*DMPT: Decoupled Modality-Aware Prompt Tuning for Multi-Modal Object Re-Identification*<br>[Paper](https://ieeexplore.ieee.org/abstract/document/10944073)
 - [TIP25-PromptMA]<br>*Prompt-Based Modality Alignment for Effective Multi-Modal Object Re-Identification*<br>[Paper](https://ieeexplore.ieee.org/abstract/document/10955143) [Code](<https://github.com/FHR-L/PromptMA>)
