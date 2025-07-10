@@ -14,6 +14,8 @@ Welcome to the Awesome-Multi-Modal Object Re-Identification Repository! This rep
 ### Methods
 
 #### Multi-Modal Object ReID
+- [ArXiv25-UGG-ReID]<br>*UGG-ReID: Uncertainty-Guided Graph Model for Multi-Modal Object Re-Identification*<br>[Paper](https://arxiv.org/pdf/2507.04638)
+- [ICML25-MFRNet]<br>*Multi-Modal Object Re-Identification via Sparse Mixture-of-Experts*<br>[https://openreview.net/pdf?id=uvFE58mSnR] [Code](https://github.com/stone96123/MFRNet)
 - [ArXiv25-NEXT]<br>*NEXT: Multi-Grained Mixture of Experts via Text-Modulation for Multi-Modal Object Re-ID*<br>[Paper](https://arxiv.org/pdf/2505.20001)
 - [TMM25-ICPL]<br>*ICPL-ReID: Identity-Conditional Prompt Learning for Multi-Spectral Object Re-Identification*<br>[Paper](https://arxiv.org/pdf/2505.17821) [Code](https://github.com/lsh-ahu/ICPL-ReID)
 - [ArXiv25-MGRNet]<br>*Reliable Multi-Modal Object Re-Identification via Modality-Aware Graph Reasoning*<br>[Paper](https://arxiv.org/pdf/2504.14847)
