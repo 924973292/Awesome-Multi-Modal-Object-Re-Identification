@@ -14,6 +14,8 @@ Welcome to the Awesome-Multi-Modal Object Re-Identification Repository! This rep
 ### Methods
 
 #### Multi-Modal Object ReID
+- [TIP25-DESANet]<br>*Escaping Modal Interactions: An Efficient DESANet for Multi-Modal Object Re-identification*<br>[Paper](https://ieeexplore.ieee.org/abstract/document/11104996) [Code](https://github.com/DWJ11/DESANet)
+- [CSCWD25-LMCNet]<br>*Lightweight Multi-Branch Feature Complementary Network for Multi-Modal Object Re-Identification*<br>[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11033597)
 - [ArXiv25-UGG-ReID]<br>*UGG-ReID: Uncertainty-Guided Graph Model for Multi-Modal Object Re-Identification*<br>[Paper](https://arxiv.org/pdf/2507.04638)
 - [ICML25-MFRNet]<br>*Multi-Modal Object Re-Identification via Sparse Mixture-of-Experts*<br>[Paper](https://openreview.net/pdf?id=uvFE58mSnR) [Code](https://github.com/stone96123/MFRNet)
 - [ArXiv25-NEXT]<br>*NEXT: Multi-Grained Mixture of Experts via Text-Modulation for Multi-Modal Object Re-ID*<br>[Paper](https://arxiv.org/pdf/2505.20001)
@@ -44,6 +46,7 @@ Welcome to the Awesome-Multi-Modal Object Re-Identification Repository! This rep
 
 
 #### Multi-Modal Vehicle ReID
+- [IEEE Access25-SV2SAFA-V1]<br>*Swin Transformer With Late-Fusion Feature Aggregation for Multi-Modal Vehicle Reidentification*<br>[Paper](https://ieeexplore.ieee.org/abstract/document/11087485)
 - [ArXiv25-CoEN]<br>*Collaborative Enhancement Network for Low-quality Multi-spectral Vehicle Re-identification*<br>[Paper](https://arxiv.org/pdf/2504.14877) [Code](https://github.com/yongqisun/CoEN)
 - [Applied Intelligence25]<br>*Generalizable Multi-spectral Vehicle Re-identification via Decoupled Subspaces*<br>[Paper](<https://link.springer.com/chapter/10.1007/978-981-96-1904-7_2>)
 - [ESWA25-WTSF-ReID]<br>*Depth-driven Window-oriented Token Selection and Fusion for multi-modality vehicle re-identification with knowledge consistency constraint*<br>[Paper](<https://www.sciencedirect.com/science/article/pii/S0957417425005433?via=ihub>) [Code](<https://github.com/unicofu/WTSF-ReID>)
