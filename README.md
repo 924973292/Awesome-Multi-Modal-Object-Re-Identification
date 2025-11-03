@@ -14,9 +14,11 @@ Welcome to the Awesome-Multi-Modal Object Re-Identification Repository! This rep
 ### Methods
 
 #### Multi-Modal Object ReID
+- [TIFS2025-PDINet]<br>*Prototype-Based Diversity and Integrity Learning for All-Day Multi-Modal Person Re-Identification*<br>[Paper](https://ieeexplore.ieee.org/abstract/document/11184558)
+- [NeurIPS25-MDReID]<br>*MDReID: Modality-Decoupled Learning for Any-to-Any Multi-Modal Object Re-Identification*<br>[Paper](https://arxiv.org/abs/2510.23301) [Code](https://github.com/stone96123/MDReID)
+- [NeurIPS25-UGG-ReID]<br>*UGG-ReID: Uncertainty-Guided Graph Model for Multi-Modal Object Re-Identification*<br>[Paper](https://arxiv.org/pdf/2507.04638)
 - [TIP25-DESANet]<br>*Escaping Modal Interactions: An Efficient DESANet for Multi-Modal Object Re-identification*<br>[Paper](https://ieeexplore.ieee.org/abstract/document/11104996) [Code](https://github.com/DWJ11/DESANet)
 - [CSCWD25-LMCNet]<br>*Lightweight Multi-Branch Feature Complementary Network for Multi-Modal Object Re-Identification*<br>[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11033597)
-- [ArXiv25-UGG-ReID]<br>*UGG-ReID: Uncertainty-Guided Graph Model for Multi-Modal Object Re-Identification*<br>[Paper](https://arxiv.org/pdf/2507.04638)
 - [ICML25-MFRNet]<br>*Multi-Modal Object Re-Identification via Sparse Mixture-of-Experts*<br>[Paper](https://openreview.net/pdf?id=uvFE58mSnR) [Code](https://github.com/stone96123/MFRNet)
 - [ArXiv25-NEXT]<br>*NEXT: Multi-Grained Mixture of Experts via Text-Modulation for Multi-Modal Object Re-ID*<br>[Paper](https://arxiv.org/pdf/2505.20001)
 - [TMM25-ICPL]<br>*ICPL-ReID: Identity-Conditional Prompt Learning for Multi-Spectral Object Re-Identification*<br>[Paper](https://arxiv.org/pdf/2505.17821) [Code](https://github.com/lsh-ahu/ICPL-ReID)
