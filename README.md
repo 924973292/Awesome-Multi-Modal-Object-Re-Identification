@@ -2,7 +2,9 @@
 
 Welcome to the Awesome-Multi-Modal Object Re-Identification Repository! This repository is dedicated to curating and sharing cutting-edge methods and resources specifically focused on multi-modal object re-identification.
 
-## My Papers
+## Our Papers
+- [AAAI26-STMI]<br>*STMI: Segmentation-Guided Token Modulation with Cross-Modal Hypergraph Interaction for Multi-Modal Object Re-Identification*<br>
+- [AAAI26-Signal]<br>*Signal: Selective Interaction and Global-local Alignment for Multi-Modal Object Re-Identification*<br>
 - [CVPR25-IDEA]<br>*IDEA: Inverted Text with Cooperative Deformable Aggregation for Multi-modal Object Re-Identification*<br>[Paper](https://arxiv.org/pdf/2503.10324) [Code](<https://github.com/924973292/IDEA>)
 - [AAAI25-DeMo]<br>*DeMo: Decoupled Feature-Based Mixture of Experts for Multi-Modal Object Re-Identification*<br>[Paper](https://arxiv.org/pdf/2412.10650) [Code](<https://github.com/924973292/DeMo>)
 - [AAAI25-MambaPro]<br>*MambaPro: Multi-Modal Object Re-identification with Mamba Aggregation and Synergistic Prompt*<br>[Paper](https://arxiv.org/pdf/2412.10707) [Code](<https://github.com/924973292/MambaPro>)
