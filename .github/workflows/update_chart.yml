@@ -35,7 +35,7 @@ jobs:
 
       - name: Generate chart
         run: |
-          python scripts/generate_chart.py
+          python generate_chart.py
 
       - name: Commit and push if changed
         run: |

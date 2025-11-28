@@ -120,9 +120,10 @@ def plot_chart(year_counts, ccf_a_counts, output_path):
 
 if __name__ == "__main__":
     # 假定脚本在 scripts/ 目录下运行，README 在上一级目录
-    readme_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'README.md')
-    output_image_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'assets',
-                                     'publication_trend.svg')
+    # Changed: Removed one os.path.dirname() call
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    readme_path = os.path.join(base_dir, 'README.md')
+    output_image_path = os.path.join(base_dir, 'assets', 'publication_trend.svg')
 
     print(f"Reading from: {readme_path}")
     y_counts, a_counts = parse_readme(readme_path)
