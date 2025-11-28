@@ -144,6 +144,7 @@ def plot_chart_pami(year_counts, ccf_a_counts, ccf_b_counts, output_path):
     ax.yaxis.grid(True, linestyle='--', which='major', color='#D3D3D3', alpha=0.5, zorder=0)
     ax.set_axisbelow(True)
 
+
     # 标签
     ax.set_xlabel('Year', fontweight='bold', labelpad=8)
     ax.set_ylabel('Number of Papers', fontweight='bold', labelpad=8)
