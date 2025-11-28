@@ -6,7 +6,7 @@ import os
 # 定义 CCF-A 类会议（根据需要添加或修改，这里包含了CV领域主要的A类和部分ReID常投的顶会）
 CCF_A_VENUES = [
     'CVPR', 'ICCV', 'ECCV', 'NeurIPS', 'ICML', 'AAAI', 'IJCAI',
-    'TPAMI', 'IJCV', 'TIP'  # 期刊也加入
+    'TPAMI', 'IJCV', 'TIP', 'TIFS'  # 期刊也加入
 ]
 
 
