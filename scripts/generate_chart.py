@@ -5,17 +5,41 @@ from collections import defaultdict
 import os
 import numpy as np
 
-# 定义 CCF-A 类会议
+# --- 1. 定义会议/期刊列表 (根据你的 README 内容定制) ---
+
+# CCF-A 类 (你文中出现过的)
 CCF_A_VENUES = [
-    'CVPR', 'ICCV', 'ECCV', 'NeurIPS', 'ICML', 'AAAI', 'IJCAI',
-    'TPAMI', 'IJCV', 'TIP', 'TIFS'
+    # 会议
+    'CVPR', 'ICCV', 'ECCV', 'NeurIPS', 'ICML', 'AAAI', 'IJCAI', 'SIGGRAPH',
+    # 期刊
+    'TPAMI', 'IJCV', 'TIP', 'TIFS', 'TVCG'
+]
+
+# CCF-B 类 (根据你的 README 内容提取)
+# 注意：Information Fusion, WACV, ESWA 在 CCF 目录中通常归为 C 类，
+# 但如果你希望将它们统计为 B 类，可以在下面列表中解除注释或添加。
+CCF_B_VENUES = [
+    # 你文中明确出现的 CCF-B 类期刊/会议
+    'TNNLS',  # IEEE Transactions on Neural Networks and Learning Systems
+    'TMM',  # IEEE Transactions on Multimedia
+    'TCSVT',  # IEEE Transactions on Circuits and Systems for Video Technology
+    'TITS',  # IEEE Transactions on Intelligent Transportation Systems
+    'ICIP', 'ICASSP', 'ICPR', 'BMVC',  # 常规 CV B类会议
+    'CVIU', 'PR', 'Pattern Recognition', 'NeuCom',  # 常规 CV B类期刊
+    'TASLP',
+
+    # [可选] 如果你想把这些高水平但 CCF 评级为 C 的也算作 B 类展示，请取消注释：
+    # 'WACV', 'Inform Fusion', 'Information Fusion', 'ESWA'
 ]
 
 
 def parse_readme(filepath):
-    """解析 README.md 文件，统计每年论文总数和 CCF-A 论文数"""
+    """解析 README.md 文件，统计每年论文总数、CCF-A 和 CCF-B 论文数"""
     year_counts = defaultdict(int)
     ccf_a_counts = defaultdict(int)
+    ccf_b_counts = defaultdict(int)
+
+    # 匹配年份 (201x - 203x)
     year_pattern = re.compile(r'\b(20[123]\d)\b')
 
     try:
@@ -24,158 +48,171 @@ def parse_readme(filepath):
 
         in_paper_section = False
         for line in lines:
+            # 确定只统计 Papers 区域和 Spotlight 区域
             if "## 📝 Papers & Methods" in line or "## 🌟 Spotlight" in line:
                 in_paper_section = True
-            if "## 💾 Datasets" in line:
+            if "## 💾 Datasets" in line or "## 📈 Star History" in line:
                 in_paper_section = False
 
             if not in_paper_section:
                 continue
 
-            if '[' in line and ']' in line and ('http' in line or 'arXiv' in line):
+            # 简单的行过滤器：必须包含链接 ([) 且看起来像是一个条目
+            if '[' in line and ']' in line and ('http' in line or 'arXiv' in line or 'Paper' in line):
                 year_match = year_pattern.search(line)
                 if year_match:
                     year = int(year_match.group(1))
                     year_counts[year] += 1
+
+                    # 优先匹配 CCF-A
                     is_ccf_a = False
                     for venue in CCF_A_VENUES:
+                        # 使用正则边界匹配，防止部分匹配 (例如匹配到 TIP 但实际是 TIFS, 虽这两个都是A但逻辑要严谨)
                         if re.search(r'\b' + re.escape(venue) + r'\b', line, re.IGNORECASE):
                             is_ccf_a = True
+                            ccf_a_counts[year] += 1
                             break
-                    if is_ccf_a:
-                        ccf_a_counts[year] += 1
+
+                    # 如果不是 A，再检查是否是 CCF-B
+                    if not is_ccf_a:
+                        for venue in CCF_B_VENUES:
+                            if re.search(r'\b' + re.escape(venue) + r'\b', line, re.IGNORECASE):
+                                ccf_b_counts[year] += 1
+                                break
+
     except FileNotFoundError:
         print(f"Error: File not found at {filepath}")
-        return None, None
-    return year_counts, ccf_a_counts
+        return None, None, None
+    return year_counts, ccf_a_counts, ccf_b_counts
 
 
-def plot_chart_pami(year_counts, ccf_a_counts, output_path):
+def plot_chart_pami(year_counts, ccf_a_counts, ccf_b_counts, output_path):
     """
-    绘制符合 IEEE/PAMI 风格的出版级图表
+    绘制符合 IEEE/PAMI 风格的出版级图表 (Total, CCF-A, CCF-B)
     """
     if not year_counts:
         print("No data found to plot.")
         return
 
-    # 数据准备
+    # 数据准备：排序年份
     years = sorted(year_counts.keys())
+
+    # 过滤掉过于久远的年份（可选，防止图表太长），这里保留全部
+    # years = [y for y in years if y >= 2020]
+
     total_vals = [year_counts[y] for y in years]
     ccf_a_vals = [ccf_a_counts[y] for y in years]
+    ccf_b_vals = [ccf_b_counts[y] for y in years]
 
     # --- 样式设置 ---
-    # 尝试使用衬线字体 (接近 Times New Roman)
     plt.rcParams['font.family'] = 'serif'
-    # 如果系统有 Times New Roman，可以显式指定:
-    # plt.rcParams['font.serif'] = ['Times New Roman'] + plt.rcParams['font.serif']
-
+    # plt.rcParams['font.serif'] = ['Times New Roman'] # 如果系统支持
     plt.rcParams['axes.labelsize'] = 12
     plt.rcParams['font.size'] = 11
     plt.rcParams['legend.fontsize'] = 10
     plt.rcParams['xtick.labelsize'] = 10
     plt.rcParams['ytick.labelsize'] = 10
-    plt.rcParams['axes.linewidth'] = 1.0  # 坐标轴线宽
+    plt.rcParams['axes.linewidth'] = 1.0
 
-    # 设置画布大小 (宽, 高) 英寸
-    # 8x5 适合 Github 展示，论文中单栏图通常宽 3.5 英寸
-    fig, ax = plt.subplots(figsize=(8, 5), dpi=300)
+    # 画布大小 (宽, 高)
+    fig, ax = plt.subplots(figsize=(8, 4.5), dpi=300)
 
     # --- 绘图 ---
-    bar_width = 0.35
+    bar_width = 0.25
     index = np.arange(len(years))
 
-    # 配色：使用专业的深蓝和砖红，对比鲜明且不刺眼
-    # zorder=3 确保柱状图在网格线之上
-    # edgecolors='black' 添加黑色边框，增强界限感
-
-    # Total Publications 柱状图
-    rects1 = ax.bar(index, total_vals, bar_width,
+    # 1. Total Publications (蓝色, 最左)
+    rects1 = ax.bar(index - bar_width, total_vals, bar_width,
                     label='Total Publications',
                     color='#4A90E2', alpha=0.9,
                     edgecolor='black', linewidth=0.8, zorder=3)
 
-    # CCF-A 柱状图：添加 hatch='//' 纹理，黑白打印也可识别
-    rects2 = ax.bar(index + bar_width, ccf_a_vals, bar_width,
+    # 2. CCF-A Venues (红色, 中间, 斜线纹理)
+    rects2 = ax.bar(index, ccf_a_vals, bar_width,
                     label='CCF-A Venues',
                     color='#E74C3C', alpha=0.9,
                     edgecolor='black', linewidth=0.8, hatch='//', zorder=3)
 
+    # 3. CCF-B Venues (森林绿 - Forest Green, 纯色无纹理)
+    rects3 = ax.bar(index + bar_width, ccf_b_vals, bar_width,
+                    label='CCF-B Venues',
+                    color='#E23E3C', alpha=0.9,  # 颜色修改
+                    edgecolor='black', linewidth=0.8, zorder=3)
+
     # --- 细节修饰 ---
-
-    # 网格线：仅保留 Y 轴，虚线，灰色，置于底层
+    # Y轴网格
     ax.yaxis.grid(True, linestyle='--', which='major', color='#D3D3D3', alpha=0.5, zorder=0)
-    ax.set_axisbelow(True)  # 确保网格线在图形后面
+    ax.set_axisbelow(True)
 
-    # 坐标轴标签
+    # 标签
     ax.set_xlabel('Year', fontweight='bold', labelpad=8)
     ax.set_ylabel('Number of Papers', fontweight='bold', labelpad=8)
-
-    # 标题 (可选，论文中通常不需要图标题，但在 Github README 中很好用)
-    ax.set_title('Publication Trend Analysis', fontweight='bold', pad=15)
+    # ax.set_title('Publication Trend', fontweight='bold', pad=15) # 可选标题
 
     # X轴刻度
-    ax.set_xticks(index + bar_width / 2)
+    ax.set_xticks(index)
     ax.set_xticklabels(years)
 
-    # 移除顶部和右侧边框 (Tufte 风格 / 现代学术风格)
+    # 去除多余边框
     ax.spines['top'].set_visible(False)
     ax.spines['right'].set_visible(False)
-
-    # 加粗左侧和底部边框
     ax.spines['left'].set_linewidth(1.0)
     ax.spines['bottom'].set_linewidth(1.0)
 
-    # 图例：去框，置于左上角
-    ax.legend(frameon=False, loc='upper left')
+    # 图例
+    ax.legend(frameon=False, loc='upper left', ncol=1)
 
-    # 数值标签函数
+    # 数值标注函数
     def autolabel(rects):
         for rect in rects:
             height = rect.get_height()
             if height > 0:
                 ax.annotate(f'{height}',
                             xy=(rect.get_x() + rect.get_width() / 2, height),
-                            xytext=(0, 3),  # 3 points vertical offset
+                            xytext=(0, 2),  # vertical offset
                             textcoords="offset points",
-                            ha='center', va='bottom', fontsize=9)
+                            ha='center', va='bottom', fontsize=8)
 
     autolabel(rects1)
     autolabel(rects2)
+    autolabel(rects3)
 
-    # 紧凑布局
     plt.tight_layout()
 
-    # 确保目录存在
+    # 确保保存目录存在
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
 
-    # 保存：SVG 适合网页和矢量编辑，PDF 适合 LaTeX 插入
-    # 同时保存 png 以防万一
+    # 保存 SVG (矢量) 和 PNG (位图)
     plt.savefig(output_path, format='svg', bbox_inches='tight')
-    # plt.savefig(output_path.replace('.svg', '.png'), format='png', dpi=300, bbox_inches='tight')
-
     print(f"Chart saved to {output_path}")
     plt.close()
 
 
 if __name__ == "__main__":
-    base_dir = os.path.dirname(os.path.abspath(__file__))
-    # 如果脚本在 scripts/ 下，往上两级可能才是根目录，请根据实际情况调整
-    # 假设结构是 root/scripts/plot.py -> root/README.md
-    project_root = os.path.dirname(base_dir)
+    # 路径处理：假设脚本在 scripts/ 下，README 在根目录
+    current_file_path = os.path.abspath(__file__)
+    project_root = os.path.dirname(os.path.dirname(current_file_path))
+
+    # 如果脚本就在根目录运行，请取消下面这行的注释并注释上面两行
+    # project_root = os.path.dirname(current_file_path)
 
     readme_path = os.path.join(project_root, 'README.md')
     output_image_path = os.path.join(project_root, 'assets', 'publication_trend.svg')
 
-    print(f"Reading from: {readme_path}")
-    # 运行解析
-    y_counts, a_counts = parse_readme(readme_path)
+    print(f"Scanning: {readme_path}")
 
-    if y_counts:
-        print("Parsed data successfully.")
-        plot_chart_pami(y_counts, a_counts, output_image_path)
+    if os.path.exists(readme_path):
+        y_counts, a_counts, b_counts = parse_readme(readme_path)
+        if y_counts:
+            # 打印一下统计结果以供调试
+            print("-" * 30)
+            print(f"{'Year':<6} {'Total':<6} {'CCF-A':<6} {'CCF-B':<6}")
+            for y in sorted(y_counts.keys()):
+                print(f"{y:<6} {y_counts[y]:<6} {a_counts[y]:<6} {b_counts[y]:<6}")
+            print("-" * 30)
+
+            plot_chart_pami(y_counts, a_counts, b_counts, output_image_path)
+        else:
+            print("No papers found. Check the parsing logic.")
     else:
-        print("No data parsed or file not found. Generating demo chart...")
-        # 演示用假数据
-        demo_y = {2020: 30, 2021: 45, 2022: 60, 2023: 85}
-        demo_a = {2020: 10, 2021: 15, 2022: 25, 2023: 40}
-        plot_chart_pami(demo_y, demo_a, output_image_path)
+        print(f"README not found at {readme_path}")
