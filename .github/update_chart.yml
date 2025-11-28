@@ -1,0 +1,48 @@
+name: Update Publication Trend Chart
+
+on:
+  # 在每天 UTC 时间 0点运行 (北京时间早上8点)
+  schedule:
+    - cron: '0 0 * * *'
+  # 当推送到 main 分支且修改了 README.md 时运行
+  push:
+    branches:
+      - main
+    paths:
+      - 'README.md'
+  # 允许手动触发
+  workflow_dispatch:
+
+jobs:
+  build-and-update-chart:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # 授予写权限以便提交生成的图片
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install matplotlib
+
+      - name: Generate chart
+        run: |
+          python scripts/generate_chart.py
+
+      - name: Commit and push if changed
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          # 检查 assets/publication_trend.svg 是否有变化
+          git add assets/publication_trend.svg
+          # 如果没有变化，commit 会失败，所以加上 || echo "No changes to commit"
+          git commit -m "📊 Auto-update publication trend chart" || echo "No changes to commit"
+          git push
