@@ -34,8 +34,9 @@ jobs:
           pip install matplotlib
 
       - name: Generate chart
+        # Change this line to point to the scripts folder
         run: |
-          python generate_chart.py
+          python scripts/generate_chart.py
 
       - name: Commit and push if changed
         run: |

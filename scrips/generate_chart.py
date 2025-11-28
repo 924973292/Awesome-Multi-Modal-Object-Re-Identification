@@ -122,6 +122,9 @@ if __name__ == "__main__":
     # 假定脚本在 scripts/ 目录下运行，README 在上一级目录
     # Changed: Removed one os.path.dirname() call
     base_dir = os.path.dirname(os.path.abspath(__file__))
+    # 去掉base_dir的最后一层目录
+    base_dir = os.path.dirname(base_dir)
+    print(f"Base directory: {base_dir}")
     readme_path = os.path.join(base_dir, 'README.md')
     output_image_path = os.path.join(base_dir, 'assets', 'publication_trend.svg')
 
