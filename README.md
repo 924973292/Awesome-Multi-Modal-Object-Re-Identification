@@ -26,9 +26,9 @@
 
 Below are the selected works from our research group, focusing on advanced token modulation, modality alignment, and prompt learning.
 
-- **[AAAI 2026] STMI: Segmentation-Guided Token Modulation with Cross-Modal Hypergraph Interaction for Multi-Modal Object Re-Identification** *[Paper](https://arxiv.org/pdf/2511.17965) | [Code](https://github.com/010129/Signal)*
+- **[AAAI 2026] STMI: Segmentation-Guided Token Modulation with Cross-Modal Hypergraph Interaction for Multi-Modal Object Re-Identification** *(Coming Soon)*
 
-- **[AAAI 2026] Signal: Selective Interaction and Global-local Alignment for Multi-Modal Object Re-Identification** *(Coming Soon)*
+- **[AAAI 2026] Signal: Selective Interaction and Global-local Alignment for Multi-Modal Object Re-Identification** *[Paper](https://arxiv.org/pdf/2511.17965) | [Code](https://github.com/010129/Signal)*
 
 - **[CVPR 2025] IDEA: Inverted Text with Cooperative Deformable Aggregation for Multi-modal Object Re-Identification** *[Paper](https://arxiv.org/pdf/2503.10324) | [Code](https://github.com/924973292/IDEA)*
 
@@ -48,25 +48,27 @@ Below are the selected works from our research group, focusing on advanced token
 ### General Multi-Modal Object ReID
 
 | Conference / Journal | Title | Resources |
-| :--- | :--- | :--- |
-| **TIFS 2025** | Prototype-Based Diversity and Integrity Learning for All-Day Multi-Modal Person Re-Identification | [Paper](https://ieeexplore.ieee.org/abstract/document/11184558) |
-| **NeurIPS 2025** | MDReID: Modality-Decoupled Learning for Any-to-Any Multi-Modal Object Re-Identification | [Paper](https://arxiv.org/abs/2510.23301) [Code](https://github.com/stone96123/MDReID) |
-| **NeurIPS 2025** | UGG-ReID: Uncertainty-Guided Graph Model for Multi-Modal Object Re-Identification | [Paper](https://arxiv.org/pdf/2507.04638) |
-| **TIP 2025** | Escaping Modal Interactions: An Efficient DESANet for Multi-Modal Object Re-identification | [Paper](https://ieeexplore.ieee.org/abstract/document/11104996) [Code](https://github.com/DWJ11/DESANet) |
-| **CSCWD 2025** | Lightweight Multi-Branch Feature Complementary Network for Multi-Modal Object Re-Identification (LMCNet) | [Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11033597) |
-| **ICML 2025** | Multi-Modal Object Re-Identification via Sparse Mixture-of-Experts (MFRNet) | [Paper](https://openreview.net/pdf?id=uvFE58mSnR) [Code](https://github.com/stone96123/MFRNet) |
-| **ArXiv 2025** | NEXT: Multi-Grained Mixture of Experts via Text-Modulation for Multi-Modal Object Re-ID | [Paper](https://arxiv.org/pdf/2505.20001) |
-| **TMM 2025** | ICPL-ReID: Identity-Conditional Prompt Learning for Multi-Spectral Object Re-Identification | [Paper](https://arxiv.org/pdf/2505.17821) [Code](https://github.com/lsh-ahu/ICPL-ReID) |
-| **ArXiv 2025** | Reliable Multi-Modal Object Re-Identification via Modality-Aware Graph Reasoning (MGRNet) | [Paper](https://arxiv.org/pdf/2504.14847) |
-| **WACV 2025** | DMPT: Decoupled Modality-Aware Prompt Tuning for Multi-Modal Object Re-Identification | [Paper](https://ieeexplore.ieee.org/abstract/document/10944073) |
-| **TIP 2025** | Prompt-Based Modality Alignment for Effective Multi-Modal Object Re-Identification | [Paper](https://ieeexplore.ieee.org/abstract/document/10955143) [Code](https://github.com/FHR-L/PromptMA) |
-| **ArXiv 2025** | Modality Unified Attack for Omni-Modality Person Re-Identification | [Paper](https://arxiv.org/pdf/2501.12761) |
-| **TCSVT 2024** | Representation Selective Coupling via Token Sparsification for Multi-Spectral Object Re-Identification (RSCNet) | [Paper](https://ieeexplore.ieee.org/abstract/document/10772090) |
-| **ESWA 2025** | LRMM: Low rank multi-scale multi-modal fusion for person re-identification based on RGB-NI-TI | [Paper](https://www.sciencedirect.com/science/article/pii/S0957417424025831) |
-| **Sensors 2024** | MambaReID: Exploiting Vision Mamba for Multi-Modal Object Re-Identification | [Paper](https://www.mdpi.com/1424-8220/24/14/4639) |
-| **AAAI 2024** | Heterogeneous Test-Time Training for Multi-Modal Person Re-identifcation (HTT) | [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/28398) [Code](https://github.com/ziwang1121/HTT) |
-| **NeurIPS 2023** | UniCat: Crafting a Stronger Fusion Baseline for Multimodal Re-Identification | [Paper](https://arxiv.org/pdf/2310.18812.pdf) [Code](https://github.com/Nano1337/UniCat) |
-| **ArXiv 2023** | GraFT: Gradual Fusion Transformer for Multimodal Re-Identification | [Paper](https://arxiv.org/pdf/2310.16856v1.pdf) [Code](https://github.com/Nano1337/GraFT) |
+|:---------------------| :--- | :--- |
+| **AAAI 2026**        | Signal: Selective Interaction and Global-local Alignment for Multi-Modal Object Re-Identification | [Paper](https://arxiv.org/pdf/2511.17965) [Code](https://github.com/010129/Signal) |
+| **AAAI 2026**        | STMI: Segmentation-Guided Token Modulation with Cross-Modal Hypergraph Interaction for Multi-Modal Object Re-Identification | *(Coming Soon)* |
+| **TIFS 2025**        | Prototype-Based Diversity and Integrity Learning for All-Day Multi-Modal Person Re-Identification | [Paper](https://ieeexplore.ieee.org/abstract/document/11184558) |
+| **NeurIPS 2025**     | MDReID: Modality-Decoupled Learning for Any-to-Any Multi-Modal Object Re-Identification | [Paper](https://arxiv.org/abs/2510.23301) [Code](https://github.com/stone96123/MDReID) |
+| **NeurIPS 2025**     | UGG-ReID: Uncertainty-Guided Graph Model for Multi-Modal Object Re-Identification | [Paper](https://arxiv.org/pdf/2507.04638) |
+| **TIP 2025**         | Escaping Modal Interactions: An Efficient DESANet for Multi-Modal Object Re-identification | [Paper](https://ieeexplore.ieee.org/abstract/document/11104996) [Code](https://github.com/DWJ11/DESANet) |
+| **CSCWD 2025**       | Lightweight Multi-Branch Feature Complementary Network for Multi-Modal Object Re-Identification (LMCNet) | [Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11033597) |
+| **ICML 2025**        | Multi-Modal Object Re-Identification via Sparse Mixture-of-Experts (MFRNet) | [Paper](https://openreview.net/pdf?id=uvFE58mSnR) [Code](https://github.com/stone96123/MFRNet) |
+| **ArXiv 2025**       | NEXT: Multi-Grained Mixture of Experts via Text-Modulation for Multi-Modal Object Re-ID | [Paper](https://arxiv.org/pdf/2505.20001) |
+| **TMM 2025**         | ICPL-ReID: Identity-Conditional Prompt Learning for Multi-Spectral Object Re-Identification | [Paper](https://arxiv.org/pdf/2505.17821) [Code](https://github.com/lsh-ahu/ICPL-ReID) |
+| **ArXiv 2025**       | Reliable Multi-Modal Object Re-Identification via Modality-Aware Graph Reasoning (MGRNet) | [Paper](https://arxiv.org/pdf/2504.14847) |
+| **WACV 2025**        | DMPT: Decoupled Modality-Aware Prompt Tuning for Multi-Modal Object Re-Identification | [Paper](https://ieeexplore.ieee.org/abstract/document/10944073) |
+| **TIP 2025**         | Prompt-Based Modality Alignment for Effective Multi-Modal Object Re-Identification | [Paper](https://ieeexplore.ieee.org/abstract/document/10955143) [Code](https://github.com/FHR-L/PromptMA) |
+| **ArXiv 2025**       | Modality Unified Attack for Omni-Modality Person Re-Identification | [Paper](https://arxiv.org/pdf/2501.12761) |
+| **TCSVT 2024**       | Representation Selective Coupling via Token Sparsification for Multi-Spectral Object Re-Identification (RSCNet) | [Paper](https://ieeexplore.ieee.org/abstract/document/10772090) |
+| **ESWA 2025**        | LRMM: Low rank multi-scale multi-modal fusion for person re-identification based on RGB-NI-TI | [Paper](https://www.sciencedirect.com/science/article/pii/S0957417424025831) |
+| **Sensors 2024**     | MambaReID: Exploiting Vision Mamba for Multi-Modal Object Re-Identification | [Paper](https://www.mdpi.com/1424-8220/24/14/4639) |
+| **AAAI 2024**        | Heterogeneous Test-Time Training for Multi-Modal Person Re-identifcation (HTT) | [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/28398) [Code](https://github.com/ziwang1121/HTT) |
+| **NeurIPS 2023**     | UniCat: Crafting a Stronger Fusion Baseline for Multimodal Re-Identification | [Paper](https://arxiv.org/pdf/2310.18812.pdf) [Code](https://github.com/Nano1337/UniCat) |
+| **ArXiv 2023**       | GraFT: Gradual Fusion Transformer for Multimodal Re-Identification | [Paper](https://arxiv.org/pdf/2310.16856v1.pdf) [Code](https://github.com/Nano1337/GraFT) |
 
 ### Multi-Modal Person ReID
 
