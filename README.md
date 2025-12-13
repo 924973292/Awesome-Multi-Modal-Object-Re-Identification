@@ -151,6 +151,7 @@ If you find our work or this repository useful in your research, please consider
 
 <details>
 <summary>Click to expand BibTeX</summary>
+</details>
 
 ```bibtex
 @inproceedings{wang2024top,
