@@ -59,6 +59,8 @@ Automatic statistics based on the papers listed in this repository.
 
 | Conference / Journal | Title | Resources |
 |:---|:---|:---|
+| **AAAI 2026** | PEFT-BoA: Parameter-Efficient Fine-Tuning with Bag-of-Adapters for Multi-Modal Object Re-identification | [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/37537) [Code](https://github.com/fffunly/PEFT-BoA) |
+| **AAAI 2026** | Progressive Multi-modal Knowledge Distillation for Multi-spectral Object Re-identification | [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/38338) |
 | **AAAI 2026** | Signal: Selective Interaction and Global-local Alignment for Multi-Modal Object Re-Identification | [Paper](https://arxiv.org/pdf/2511.17965) [Code](https://github.com/010129/Signal) |
 | **AAAI 2026** | STMI: Segmentation-Guided Token Modulation with Cross-Modal Hypergraph Interaction for Multi-Modal Object Re-Identification | *(Coming Soon)* |
 | **TIFS 2025** | Prototype-Based Diversity and Integrity Learning for All-Day Multi-Modal Person Re-Identification | [Paper](https://ieeexplore.ieee.org/abstract/document/11184558) |
