@@ -28,7 +28,7 @@
 
 Below are selected works from our research group, focusing on advanced token modulation, modality alignment, and prompt learning.
 
-- **[AAAI 2026] STMI: Segmentation-Guided Token Modulation with Cross-Modal Hypergraph Interaction for Multi-Modal Object Re-Identification** *(Coming Soon)*
+- **[AAAI 2026] STMI: Segmentation-Guided Token Modulation with Cross-Modal Hypergraph Interaction for Multi-Modal Object Re-Identification** *[Paper](https://arxiv.org/abs/2603.00695)
 
 - **[AAAI 2026] Signal: Selective Interaction and Global-local Alignment for Multi-Modal Object Re-Identification** *[Paper](https://arxiv.org/pdf/2511.17965) | [Code](https://github.com/010129/Signal)*
 
@@ -62,7 +62,7 @@ Automatic statistics based on the papers listed in this repository.
 | **AAAI 2026** | PEFT-BoA: Parameter-Efficient Fine-Tuning with Bag-of-Adapters for Multi-Modal Object Re-identification | [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/37537) [Code](https://github.com/fffunly/PEFT-BoA) |
 | **AAAI 2026** | Progressive Multi-modal Knowledge Distillation for Multi-spectral Object Re-identification | [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/38338) |
 | **AAAI 2026** | Signal: Selective Interaction and Global-local Alignment for Multi-Modal Object Re-Identification | [Paper](https://arxiv.org/pdf/2511.17965) [Code](https://github.com/010129/Signal) |
-| **AAAI 2026** | STMI: Segmentation-Guided Token Modulation with Cross-Modal Hypergraph Interaction for Multi-Modal Object Re-Identification | *(Coming Soon)* |
+| **AAAI 2026** | STMI: Segmentation-Guided Token Modulation with Cross-Modal Hypergraph Interaction for Multi-Modal Object Re-Identification | *[Paper](https://arxiv.org/abs/2603.00695)* |
 | **TIFS 2025** | Prototype-Based Diversity and Integrity Learning for All-Day Multi-Modal Person Re-Identification | [Paper](https://ieeexplore.ieee.org/abstract/document/11184558) |
 | **NeurIPS 2025** | MDReID: Modality-Decoupled Learning for Any-to-Any Multi-Modal Object Re-Identification | [Paper](https://arxiv.org/abs/2510.23301) [Code](https://github.com/stone96123/MDReID) |
 | **NeurIPS 2025** | UGG-ReID: Uncertainty-Guided Graph Model for Multi-Modal Object Re-Identification | [Paper](https://arxiv.org/pdf/2507.04638) |
