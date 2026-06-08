@@ -56,9 +56,10 @@ Automatic statistics based on the papers listed in this repository.
 ## 📝 Papers & Methods
 
 ### General Multi-Modal Object ReID
-
+https://openaccess.thecvf.com/content/CVPR2026/papers/Gao_Chain-of-Thought_Guided_Multi-Modal_Object_Re-Identification_CVPR_2026_paper.pdf
 | Conference / Journal | Title | Resources |
 |:---|:---|:---|
+| **CVPR 2026** | Chain-of-Thought Guided Multi-Modal Object Re-Identification | [Paper](https://openaccess.thecvf.com/content/CVPR2026/papers/Gao_Chain-of-Thought_Guided_Multi-Modal_Object_Re-Identification_CVPR_2026_paper.pdf) [Code](https://github.com/Gaoya615/CoT-ReID) |
 | **AAAI 2026** | PEFT-BoA: Parameter-Efficient Fine-Tuning with Bag-of-Adapters for Multi-Modal Object Re-identification | [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/37537) [Code](https://github.com/fffunly/PEFT-BoA) |
 | **AAAI 2026** | Progressive Multi-modal Knowledge Distillation for Multi-spectral Object Re-identification | [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/38338) |
 | **AAAI 2026** | Signal: Selective Interaction and Global-local Alignment for Multi-Modal Object Re-Identification | [Paper](https://arxiv.org/pdf/2511.17965) [Code](https://github.com/010129/Signal) |
