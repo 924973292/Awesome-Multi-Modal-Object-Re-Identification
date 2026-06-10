@@ -56,7 +56,6 @@ Automatic statistics based on the papers listed in this repository.
 ## 📝 Papers & Methods
 
 ### General Multi-Modal Object ReID
-https://openaccess.thecvf.com/content/CVPR2026/papers/Gao_Chain-of-Thought_Guided_Multi-Modal_Object_Re-Identification_CVPR_2026_paper.pdf
 | Conference / Journal | Title | Resources |
 |:---|:---|:---|
 | **CVPR 2026** | Chain-of-Thought Guided Multi-Modal Object Re-Identification | [Paper](https://openaccess.thecvf.com/content/CVPR2026/papers/Gao_Chain-of-Thought_Guided_Multi-Modal_Object_Re-Identification_CVPR_2026_paper.pdf) [Code](https://github.com/Gaoya615/CoT-ReID) |
